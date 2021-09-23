@@ -8,6 +8,7 @@ public class Teller {
         Customer customer[] = new Customer[10];
         Bank bank = new Bank();
 
+
         int TotalCustomer = 0;
 
         Scanner scanner = new Scanner(System.in);
@@ -44,7 +45,7 @@ public class Teller {
                     break;
 
                 case 2:
-                    System.out.println("*************MK Banking Systems - Customer list*****************");
+                    System.out.println("*************MK Banking Systems - Customer list*****************"  );
                     System.out.println("Name:              ID:                CurrentBalance");
                     for(int i=0;i<TotalCustomer;i++) {
 
@@ -99,7 +100,7 @@ public class Teller {
         }
 
 
-
+//updated from local branch************************
 
 
 //        Customer muthu = new Customer("Muthu",500);
